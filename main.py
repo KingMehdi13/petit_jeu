@@ -1,16 +1,20 @@
-# This is a sample Python script.
-
-# Press Maj+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+#importation
+import random
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+#Déclaration des classes et fonctions
+class Jeu:
+    """
+    C'est un jeu
+    """
+    def __init__(self, m):
+        """
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+        :param m: un nombre
+        print(random.randint(0,10)
+        """
+        self.k = random.randint(0, m)
+    if __name__ == '__init__':
+        import doctest
+        doctest.testmod()
+#Programme principal
